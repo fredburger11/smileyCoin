@@ -362,7 +362,7 @@ Value sendtobetzyy(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "sendtobetzyy /"amount ( \"comment\" \"comment-to\" ) \n"
+            "sendtobetzyy \"amount ( \"comment\" \"comment-to\" ) \n"
             "\n Sent an amount to betzzy. The amount is real and is rounded to the nearest 0.00000001\n"
             + HelpRequiringPassphrase() +
             "\nArguments:\n"
