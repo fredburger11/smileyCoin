@@ -324,6 +324,7 @@ static const CRPCCommand vRPCCommands[] =
     { "sendfrom",               &sendfrom,               false,     false,      true },
     { "sendmany",               &sendmany,               false,     false,      true },
     { "sendtoaddress",          &sendtoaddress,          false,     false,      true },
+    { "sendtobetzyy",           &sendtobetzyy,           false,     false,      true },
     { "setaccount",             &setaccount,             true,      false,      true },
     { "settxfee",               &settxfee,               false,     false,      true },
     { "signmessage",            &signmessage,            false,     false,      true },
@@ -959,3 +960,4 @@ std::string HelpExampleRpc(string methodname, string args){
 }
 
 const CRPCTable tableRPC;
+
